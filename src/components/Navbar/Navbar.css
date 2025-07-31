@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Alinha os itens com espaço entre eles */
+  align-items: center; /* Alinha verticalmente ao centro */
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  height: 40px; /* Ajuste o tamanho do logo */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* Espaço entre os links */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-cta {
+  /* Estilos para o seu botão de chamada à ação */
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
