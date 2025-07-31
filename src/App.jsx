@@ -7,6 +7,7 @@ function App() {
       <h1>Minha Página em Branco haha </h1>
       <p>Agora posso começar a construir! hahahah</p>
       <button>Clica aqui não.</button>
+      <a>meu deus</a>
     </div>
   );
 }
