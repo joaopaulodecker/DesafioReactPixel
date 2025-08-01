@@ -4,26 +4,31 @@ import logoUfsc from "../../assets/logo-ufsc.png";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <img src={logoUfsc} alt="Logo da UFSC" />
+    <header className="navbar-container">
+      <div className="navbar-logo-wrapper">
+        <div className="logo-background">
+          <img src={logoUfsc} alt="Logo da UFSC" />
+        </div>
       </div>
-      <ul className="navbar-links">
-        <li>
-          <a href="#about">Cursos</a>
-        </li>
-        <li>
-          <a href="#benefits">Vida no Campus</a>
-        </li>
-        <li>
-          <a href="#testimonials">Como Ingressar</a>
-        </li>
-        <li>
-          <a href="#contact">Contato</a>
-        </li>
-      </ul>
-      <button className="navbar-cta">Inscreva-se</button>
-    </nav>
+
+      <nav className="navbar-links">
+        <ul>
+          <li>
+            <a href="#cursos">Cursos</a>
+          </li>
+          <li>
+            <a href="#campus">Vida no Campus</a>
+          </li>
+          <li>
+            <a href="#ingresso">Como Ingressar</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="navbar-cta-wrapper">
+        <button className="navbar-cta-button">Inscreva-se</button>
+      </div>
+    </header>
   );
 }
 

@@ -1,34 +1,71 @@
-.navbar {
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
   display: flex;
-  justify-content: space-between; /* Alinha os itens com espaço entre eles */
-  align-items: center; /* Alinha verticalmente ao centro */
-  padding: 1rem 2rem;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem; /* padding vertical e horizontal */
+
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
-.navbar-logo img {
-  height: 40px; /* Ajuste o tamanho do logo */
+.logo-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #005a9c, #007bff);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px;
 }
 
-.navbar-links {
+.logo-background img {
+  height: 90%;
+  width: auto;
+}
+
+.navbar-links ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem; /* Espaço entre os links */
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
 }
 
 .navbar-links a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s ease;
 }
 
-.navbar-cta {
-  /* Estilos para o seu botão de chamada à ação */
-  padding: 0.5rem 1rem;
-  background-color: #007bff;
+.navbar-links a:hover {
+  color: #007bff;
+}
+
+.navbar-cta-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
   color: white;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
