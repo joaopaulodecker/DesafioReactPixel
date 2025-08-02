@@ -4,6 +4,8 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Benefits from "./components/Benefits/Benefits";
 import Testimonials from "./components/Testimonials/Tertimonials";
+import CTA from "./components/CTA/CTA";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
         <About />
         <Benefits />
         <Testimonials />
+        <CTA />
       </main>
+      <Footer />
     </>
   );
 }
