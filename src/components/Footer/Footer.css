@@ -1,9 +1,7 @@
-/* src/components/Footer/Footer.css */
-
 .footer-section {
-  background-color: #1c1c1c; /* Um cinza bem escuro, quase preto */
-  color: #ccc; /* Cor de texto clara para contraste */
-  padding: 4rem 2rem 0; /* Adiciona padding, mas não na parte de baixo ainda */
+  background-color: #1c1c1c;
+  color: #ccc;
+  padding: 4rem 2rem 0;
 }
 
 .footer-content {
@@ -12,9 +10,9 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 2rem;
-  flex-wrap: wrap; /* Permite quebrar em telas menores */
+  flex-wrap: wrap;
   padding-bottom: 3rem;
-  border-bottom: 1px solid #444; /* Linha separadora */
+  border-bottom: 1px solid #444;
 }
 
 .footer-about,
@@ -26,8 +24,8 @@
 
 .footer-logo {
   width: 80px;
-  background-color: white; /* Adiciona um fundo branco para o logo se destacar */
-  border-radius: 50%;
+  background-color: white;
+  border-radius: 10%;
   padding: 5px;
   margin-bottom: 1rem;
 }
@@ -63,7 +61,7 @@
 
 .footer-links a:hover {
   color: white;
-  padding-left: 5px; /* Efeito sutil no hover */
+  padding-left: 5px;
 }
 
 .social-icons {
@@ -78,7 +76,7 @@
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Cor de destaque azul */
+  color: #007bff;
   transform: scale(1.2);
 }
 

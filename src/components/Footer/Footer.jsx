@@ -1,7 +1,6 @@
-// src/components/Footer/Footer.jsx
 import React from "react";
 import "./Footer.css";
-import logoUfsc from "../../assets/logo-ufsc.png"; // Reutilizando o logo
+import logoUfsc from "../../assets/logo-ufsc.png";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 function Footer() {
