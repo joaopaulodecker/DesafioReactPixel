@@ -9,7 +9,13 @@ function CTA() {
         <p className="cta-subtitle">
           Seu futuro na melhor universidade de Santa Catarina começa aqui.
         </p>
-        <button className="cta-button">Inscreva-se no Vestibular</button>
+        <a
+          href="https://vestibularunificado2025.ufsc.br/inscricao/"
+          target="_blank"
+          className="cta-button"
+        >
+          Inscreva-se no Vestibular
+        </a>
       </div>
     </section>
   );

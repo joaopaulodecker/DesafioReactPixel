@@ -26,7 +26,13 @@ function Navbar() {
       </nav>
 
       <div className="navbar-cta-wrapper">
-        <button className="navbar-cta-button">Inscreva-se</button>
+        <a
+          href="https://vestibularunificado2025.ufsc.br/inscricao/"
+          target="_blank"
+          className="navbar-cta-button"
+        >
+          Inscreva-se
+        </a>
       </div>
     </header>
   );
