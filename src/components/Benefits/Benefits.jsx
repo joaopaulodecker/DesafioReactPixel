@@ -8,7 +8,7 @@ import projetosImage from "../../assets/projetos.jpg";
 
 function Benefits() {
   return (
-    <section className="benefits-section" id="campus">
+    <section className="benefits-section" id="benefits">
       <h2 className="benefits-title">Um Universo de Oportunidades</h2>
       <div className="benefits-grid">
         {/* Card 1 */}

@@ -4,6 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  height: 80px;
 
   display: flex;
   justify-content: space-between;
@@ -69,4 +70,11 @@
 .navbar-cta-button:hover {
   background-color: #0056b3;
   transform: scale(1.05);
+}
+
+.navbar-logo-wrapper,
+.navbar-links,
+.navbar-cta-wrapper {
+  display: flex;
+  align-items: center;
 }

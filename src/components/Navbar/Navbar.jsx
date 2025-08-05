@@ -14,13 +14,25 @@ function Navbar() {
       <nav className="navbar-links">
         <ul>
           <li>
-            <a href="#cursos">Cursos</a>
+            <a
+              href="https://prograd.ufsc.br/cursos-de-graduacao-da-ufsc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cursos
+            </a>
           </li>
           <li>
-            <a href="#campus">Vida no Campus</a>
+            <a
+              href="https://sinter.ufsc.br/campi-e-cidades/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vida no Campus
+            </a>
           </li>
           <li>
-            <a href="#ingresso">Como Ingressar</a>
+            <a href="#benefits">Oportunidades</a>
           </li>
         </ul>
       </nav>
@@ -29,6 +41,7 @@ function Navbar() {
         <a
           href="https://vestibularunificado2025.ufsc.br/inscricao/"
           target="_blank"
+          rel="noopener noreferrer"
           className="navbar-cta-button"
         >
           Inscreva-se
