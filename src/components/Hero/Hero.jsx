@@ -11,10 +11,12 @@ function Hero() {
       <div className="hero-overlay"></div>
 
       <div className="hero-content">
-        <h1>UFSC: Construa seu Futuro na Melhor Federal de Santa Catarina.</h1>
+        <h1>
+          UFSC: Construa seu Futuro na Melhor Universidade de Santa Catarina.
+        </h1>
         <p>
           Ensino gratuito, excelência em pesquisa e uma experiência
-          universitária inesquecível na Ilha da Magia.
+          universitária inesquecível.
         </p>
 
         <a

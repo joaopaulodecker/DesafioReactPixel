@@ -3,9 +3,16 @@ import "./Navbar.css";
 import logoUfsc from "../../assets/logo-ufsc.png";
 
 function Navbar() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header className="navbar-container">
-      <div className="navbar-logo-wrapper">
+      <div className="navbar-logo-wrapper" onClick={scrollToTop}>
         <div className="logo-background">
           <img src={logoUfsc} alt="Logo da UFSC" />
         </div>
