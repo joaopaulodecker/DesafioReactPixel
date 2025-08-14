@@ -2,7 +2,7 @@ Projeto de uma landing page moderna e responsiva da Universidade Federal de Sant
 
 --
 
-![](./assets/Screenshot Landing Page UFSC.png)
+![](./assets/screenshot-ufsc.png)
 
 --
 
