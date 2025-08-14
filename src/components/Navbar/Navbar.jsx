@@ -28,7 +28,7 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vida no Campus
+              Campi
             </a>
           </li>
           <li>

@@ -16,7 +16,15 @@ function Hero() {
           Ensino gratuito, excelência em pesquisa e uma experiência
           universitária inesquecível na Ilha da Magia.
         </p>
-        <button className="navbar-cta-button">Conheça os Cursos</button>
+
+        <a
+          href="https://prograd.ufsc.br/cursos-de-graduacao-da-ufsc/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-cta-button"
+        >
+          Conheça os Cursos
+        </a>
       </div>
     </section>
   );

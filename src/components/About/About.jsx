@@ -29,7 +29,7 @@ function About() {
 
           <div className="about-card">
             <FaUsers className="about-icon" />
-            <h3>Comunidade Vibrante</h3>
+            <h3>Comunidade Engajada</h3>
             <p>
               Uma experiência universitária completa com atividades culturais,
               esportivas e projetos de extensão.
